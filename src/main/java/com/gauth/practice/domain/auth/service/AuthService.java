@@ -24,11 +24,11 @@ public class AuthService {
     private final MemberRepository memberRepository;
     private final GAuth gAuth;
 
-    @Value("gauth.clientId")
+    @Value("${gauth.clientId}")
     private String clientId;
-    @Value("gauth.clientSecret")
+    @Value("${gauth.clientSecret}")
     private String clientSecret;
-    @Value("gauth.redirectUri")
+    @Value("${gauth.redirectUri}")
     private String redirectUri;
 
     public TokenResponse signIn(SignInRequest signInRequest) {

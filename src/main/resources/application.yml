@@ -18,4 +18,4 @@ jwt:
 gauth:
   clientId: 42cb0e0835dd4367a6298ce9949c47ed5f39618717b2428f8783fff8905629e0
   clientSecret: 92c8e67d5e09438eaf0e5de46a730bd806d6f96cc0824e62bc02dc4a43f1b129
-  redirectUrl: http://localhost:8080/auth/redirect
+  redirectUri: http://localhost:8080/auth/redirect
