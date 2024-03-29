@@ -12,6 +12,9 @@ spring:
         format_sql: true
     show-sql: true
 
+jwt:
+  secret: c3ByaW5nLWJvb3Qtc2VjdXJpdHktand0LXR1dG9yaWFsLWppd29vbi1zcHJpbmctYm9vdC1zZWN1cml0eS1qd3QtdHV0b3JpYWwK
+
 gauth:
   clientId: 42cb0e0835dd4367a6298ce9949c47ed5f39618717b2428f8783fff8905629e0
   clientSecret: 92c8e67d5e09438eaf0e5de46a730bd806d6f96cc0824e62bc02dc4a43f1b129

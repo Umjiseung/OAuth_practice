@@ -1,9 +1,6 @@
 package com.gauth.practice.domain.member;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
@@ -22,7 +19,8 @@ public class Member {
 
     private String email;
 
-    private String studentNum;
+    @Embedded
+    private StudentNum studentNum;
 
     private String name;
 
